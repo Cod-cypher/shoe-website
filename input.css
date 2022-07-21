@@ -97,3 +97,17 @@ img {
     transform: translateY(0);
   }
 }
+
+#hide {
+  transition: all 1s ease-in-out;
+  animation: menuTransition 0.5s forwards;
+}
+
+@keyframes menuTransition {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 0px;
+  }
+}

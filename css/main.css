@@ -516,8 +516,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 50;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .z-20 {
   z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mx-auto {
@@ -626,6 +638,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -802,6 +819,32 @@ img {
 
   to {
     transform: translateY(0);
+  }
+}
+
+#hide {
+  transition: all 1s ease-in-out;
+  -webkit-animation: menuTransition 0.5s forwards;
+          animation: menuTransition 0.5s forwards;
+}
+
+@-webkit-keyframes menuTransition {
+  0% {
+    right: -100px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes menuTransition {
+  0% {
+    right: -100px;
+  }
+
+  100% {
+    right: 0px;
   }
 }
 

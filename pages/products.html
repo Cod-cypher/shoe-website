@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+ <nav class="container mx-auto p-6 z-50">
+    <div class="flex justify-between items-center">
+      <h1 class="text-2xl z-10 font-semibold cursor-pointer">
+        Shoe<span class="sm:text-white md:text-red-500">Brand</span>
+      </h1>
+
+      <div class="hidden md:flex space-x-6 text-white z-50">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="./pages/products.html">Purchase</a>
+
+        <a href="">Contact Us</a>
+      </div>
+
+      <!--button for mobile-->
+      <button
+        id="menu-btn"
+        class="block md:hidden p-[2px] hamburger focus:outline-none z-50"
+      >
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+    <div
+      id="hide"
+      class="absolute top-0 bg-white menuTransition h-[100vh] md:hidden hidden right-0 w-[300px] z-40 open"
+    >
+      <div
+        class="flex flex-col menuTransition space-around items-center mt-40 space-y-[10rem]"
+      >
+        <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+        <a href="https://www.google.com" >Purchase</a>
+<a href="http://" target="_blank" rel="noopener noreferrer">Contact Us</a>
+      </div>
+      </div>
+    </div>
+  </nav>
+    <section>
+      <div
+        class="container mx-auto flex flex-col justify-between space-y-12 items-center"
+      >
+        <div
+          class="flex flex-col my-12 justify-center md:flex-row-reverse items-center p-3"
+        >
+          <p class="text-lg md:w-1/2 p-3 max-w-[400px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            reprehenderit, soluta dignissimos aliquid recusandae animi corrupti
+            sit mollitia amet voluptatem.
+          </p>
+          <!--  IMG HERE -->
+          <div>
+            <img src="../images/jordon.jpg" alt="" />
+          </div>
+        </div>
+
+        <!--2cond item-->
+
+        <div
+          class="flex flex-col justify-center md:flex-row-reverse items-center p-3"
+        >
+          <p class="text-lg md:w-1/2 p-3 max-w-[400px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            reprehenderit, soluta dignissimos aliquid recusandae animi corrupti
+            sit mollitia amet voluptatem.
+          </p>
+
+          <!-- IMG HTEREA  -->
+        </div>
+
+        <!-- 3rd item -->
+
+        <div
+          class="flex flex-col justify-center md:flex-row-reverse items-center p-3"
+        >
+          <p class="text-lg md:w-1/2 p-3 max-w-[400px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            reprehenderit, soluta dignissimos aliquid recusandae animi corrupti
+            sit mollitia amet voluptatem.
+          </p>
+
+          <!-- img herea  -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
